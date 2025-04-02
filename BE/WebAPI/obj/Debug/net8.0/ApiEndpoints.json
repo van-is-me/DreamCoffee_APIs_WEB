@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "WebAPI.Controllers.Admin.CategoryController",
+    "Method": "CreateCategory",
+    "RelativePath": "api/Category",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "createCategoryViewModel",
+        "Type": "Application.ViewModels.CategoryViewModels.CreateCategoryViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
