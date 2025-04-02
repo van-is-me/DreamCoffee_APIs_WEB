@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Infrastructures.Repositories;
 using Application.Interfaces;
 using Application.Services;
+using Application.Mappers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,14 +16,15 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
 // ??ng ký DbContext t? Infrastructure
 builder.Services.AddDbContext<AppDBContext>(options =>
-    options.UseSqlServer(connectionString));
+                    options.UseSqlServer(builder.Configuration.GetConnectionString("Development"),
+                        builder => builder.MigrationsAssembly(typeof(AppDBContext).Assembly.FullName)));
 
 builder.Services.AddHttpContextAccessor();
 
-builder.Services.AddAutoMapper(typeof(Program)); // Ho?c n?i ch?a Profile c?a AutoMapper
+builder.Services.AddAutoMapper(typeof(MapperConfigurationsProfile)); // Ho?c n?i ch?a Profile c?a AutoMapper
 
 // ??ng ký các Repository c? th?
 builder.Services.AddScoped<ICurrentTime, CurrentTimeService>();
@@ -38,7 +40,7 @@ builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 builder.Services.AddScoped<ICategoryService, CategoryService>();
-
+builder.Services.AddScoped<IUserService, UserService>();
 
 // ??ng ký UnitOfWork
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();

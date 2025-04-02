@@ -1,4 +1,6 @@
 ﻿using Application.ViewModels.CategoryViewModels;
+using Application.ViewModels.UserViewModel;
+using Application.ViewModels.UserViewModels;
 using AutoMapper;
 using Domain.Entities;
 using System;
@@ -15,6 +17,9 @@ namespace Application.Mappers
         public MapperConfigurationsProfile()
         {
             CreateMap<Category, CreateCategoryViewModel>().ReverseMap();
+            CreateMap<User, UserViewModel>().ReverseMap();
+            CreateMap<User, CreateUserViewModel>().ReverseMap();
+
         }
 
     }

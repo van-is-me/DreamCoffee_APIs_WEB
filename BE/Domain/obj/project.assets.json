@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\DreamCoffe_APIs\\BE\\Domain\\Domain.csproj",
+      "projectUniqueName": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "D:\\Project\\DreamCoffe_APIs\\BE\\Domain\\Domain.csproj",
+      "projectPath": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\vanng\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\DreamCoffe_APIs\\BE\\Domain\\obj\\",
+      "outputPath": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

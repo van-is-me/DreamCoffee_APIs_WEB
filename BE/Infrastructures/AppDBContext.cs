@@ -78,7 +78,6 @@ namespace Infrastructures
                 .HasOne(od => od.Order)
                 .WithMany(o => o.OrderDetails)
                 .HasForeignKey(od => od.OrderId);
-
         }
 
 
@@ -87,13 +86,26 @@ namespace Infrastructures
             if (!optionsBuilder.IsConfigured)
             {
                 IConfigurationRoot configuration = new ConfigurationBuilder()
-                    .SetBasePath(Directory.GetCurrentDirectory())
+                    .SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "..", "WebAPI"))
                     .AddJsonFile("appsettings.json")
                     .Build();
 
-                string connectionString = configuration.GetConnectionString("DefaultConnection");
-                optionsBuilder.UseSqlServer(connectionString);
+                string connectionString = configuration.GetConnectionString("Development");
+                optionsBuilder.UseSqlServer(connectionString, b => b.MigrationsAssembly("Infrastructures"));
             }
         }
+        /*protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                IConfigurationRoot configuration = new ConfigurationBuilder()
+                    .SetBasePath(Path.Combine(Directory.GetCurrentDirectory(), "..", "WebAPI"))
+                    .AddJsonFile("appsettings.json")
+                    .Build();
+
+                string connectionString = configuration.GetConnectionString("Development");
+                optionsBuilder.UseSqlServer(connectionString);
+            }
+        }*/
     }
 }
