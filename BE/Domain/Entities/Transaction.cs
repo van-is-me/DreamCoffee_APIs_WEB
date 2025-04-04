@@ -14,9 +14,9 @@ namespace Domain.Entities
         public Guid? OrderId { get; set; }
         [ForeignKey("User")]
         public Guid UserId { get; set; }
-        public PaymentMethod PaymentMethod { get; set; }
+        public PaymentMethod? PaymentMethod { get; set; }
         public TransactionStatus Status { get; set; }
-        public DateTime TransactionDate { get; set; }
+        public DateTime? TransactionDate { get; set; }
         public virtual User User { get; set; }
         public virtual Order Order { get; set; }
     }

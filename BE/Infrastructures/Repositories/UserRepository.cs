@@ -12,7 +12,7 @@ namespace Infrastructures.Repositories
     public class UserRepository : GenericRepository<User>, IUserRepository
     {
         private readonly AppDBContext _dbContext;
-        public UserRepository(AppDBContext context, ICurrentTime timeService, IClaimsService claimsService) : base(context, timeService, claimsService)
+        public UserRepository(AppDBContext context, ICurrentTimeService timeService, IClaimsService claimsService) : base(context, timeService, claimsService)
         {
             _dbContext = context;
         }

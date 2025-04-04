@@ -12,7 +12,7 @@ namespace Infrastructures.Repositories
     public class CategoryRepository : GenericRepository<Category>, ICategoryRepository 
     {
         private readonly AppDBContext _dbContext;
-        public CategoryRepository(AppDBContext context, ICurrentTime timeService, IClaimsService claimsService) : base(context, timeService, claimsService)
+        public CategoryRepository(AppDBContext context, ICurrentTimeService timeService, IClaimsService claimsService) : base(context, timeService, claimsService)
         {
             _dbContext = context;
         }

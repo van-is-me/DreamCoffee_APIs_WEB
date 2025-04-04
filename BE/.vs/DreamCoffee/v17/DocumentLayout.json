@@ -3,8 +3,56 @@
   "WorkspaceRootPath": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E8F3FA76-3A38-4B0D-8C6E-115045AC3C7C}|Infrastructures\\Infrastructures.csproj|d:\\project\\dreamcoffee_apis_web\\be\\infrastructures\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8F3FA76-3A38-4B0D-8C6E-115045AC3C7C}|Infrastructures\\Infrastructures.csproj|solutionrelative:infrastructures\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|d:\\project\\dreamcoffee_apis_web\\be\\application\\viewmodels\\userviewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|solutionrelative:application\\viewmodels\\userviewmodels\\userviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|d:\\project\\dreamcoffee_apis_web\\be\\application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|solutionrelative:application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|d:\\project\\dreamcoffee_apis_web\\be\\application\\mappers\\mapperconfigurationsprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|solutionrelative:application\\mappers\\mapperconfigurationsprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22AE40F-86CD-4B50-BD02-CEB12BCDB860}|WebAPI\\WebAPI.csproj|d:\\project\\dreamcoffee_apis_web\\be\\webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22AE40F-86CD-4B50-BD02-CEB12BCDB860}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|d:\\project\\dreamcoffee_apis_web\\be\\application\\viewmodels\\userviewmodels\\registeremployeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|solutionrelative:application\\viewmodels\\userviewmodels\\registeremployeeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|d:\\project\\dreamcoffee_apis_web\\be\\application\\middleware\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|solutionrelative:application\\middleware\\authentication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|d:\\project\\dreamcoffee_apis_web\\be\\application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22AE40F-86CD-4B50-BD02-CEB12BCDB860}|WebAPI\\WebAPI.csproj|d:\\project\\dreamcoffee_apis_web\\be\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A22AE40F-86CD-4B50-BD02-CEB12BCDB860}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|d:\\project\\dreamcoffee_apis_web\\be\\application\\viewmodels\\userviewmodels\\registercustomerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|solutionrelative:application\\viewmodels\\userviewmodels\\registercustomerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48D6F5BC-03D3-458D-9566-C9E1C04BD9FA}|Domain\\Domain.csproj|d:\\project\\dreamcoffee_apis_web\\be\\domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48D6F5BC-03D3-458D-9566-C9E1C04BD9FA}|Domain\\Domain.csproj|solutionrelative:domain\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|d:\\project\\dreamcoffee_apis_web\\be\\application\\middleware\\authorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|solutionrelative:application\\middleware\\authorization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22AE40F-86CD-4B50-BD02-CEB12BCDB860}|WebAPI\\WebAPI.csproj|d:\\project\\dreamcoffee_apis_web\\be\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22AE40F-86CD-4B50-BD02-CEB12BCDB860}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22AE40F-86CD-4B50-BD02-CEB12BCDB860}|WebAPI\\WebAPI.csproj|d:\\project\\dreamcoffee_apis_web\\be\\webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A22AE40F-86CD-4B50-BD02-CEB12BCDB860}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +62,175 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppDBContextModelSnapshot.cs",
-              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Infrastructures\\Migrations\\AppDBContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Infrastructures\\Migrations\\AppDBContextModelSnapshot.cs",
-              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Infrastructures\\Migrations\\AppDBContextModelSnapshot.cs",
-              "RelativeToolTip": "Infrastructures\\Migrations\\AppDBContextModelSnapshot.cs",
-              "ViewState": "AgIAAJ4BAAAAAAAAAAAAAJ0BAAAYAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "RegisterEmployeeViewModel.cs",
+              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\ViewModels\\UserViewModels\\RegisterEmployeeViewModel.cs",
+              "RelativeDocumentMoniker": "Application\\ViewModels\\UserViewModels\\RegisterEmployeeViewModel.cs",
+              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\ViewModels\\UserViewModels\\RegisterEmployeeViewModel.cs",
+              "RelativeToolTip": "Application\\ViewModels\\UserViewModels\\RegisterEmployeeViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T17:20:24.742Z",
+              "WhenOpened": "2025-04-04T21:28:00.79Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
+              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\WebAPI\\appsettings.json",
+              "RelativeToolTip": "WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-04T21:06:24.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\WebAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\WebAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAywE8AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T21:02:34.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\UserService.cs",
+              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Services\\UserService.cs",
+              "RelativeToolTip": "Application\\Services\\UserService.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAWwFAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T20:54:49.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserViewModel.cs",
+              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\ViewModels\\UserViewModels\\UserViewModel.cs",
+              "RelativeDocumentMoniker": "Application\\ViewModels\\UserViewModels\\UserViewModel.cs",
+              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\ViewModels\\UserViewModels\\UserViewModel.cs",
+              "RelativeToolTip": "Application\\ViewModels\\UserViewModels\\UserViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T20:54:36.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IUserService.cs",
+              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T20:54:02.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegisterCustomerViewModel.cs",
+              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\ViewModels\\UserViewModels\\RegisterCustomerViewModel.cs",
+              "RelativeDocumentMoniker": "Application\\ViewModels\\UserViewModels\\RegisterCustomerViewModel.cs",
+              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\ViewModels\\UserViewModels\\RegisterCustomerViewModel.cs",
+              "RelativeToolTip": "Application\\ViewModels\\UserViewModels\\RegisterCustomerViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T20:51:02.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Authentication.cs",
+              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Middleware\\Authentication.cs",
+              "RelativeDocumentMoniker": "Application\\Middleware\\Authentication.cs",
+              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Middleware\\Authentication.cs",
+              "RelativeToolTip": "Application\\Middleware\\Authentication.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAApwIkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T17:55:59.309Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MapperConfigurationsProfile.cs",
+              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Mappers\\MapperConfigurationsProfile.cs",
+              "RelativeDocumentMoniker": "Application\\Mappers\\MapperConfigurationsProfile.cs",
+              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Mappers\\MapperConfigurationsProfile.cs",
+              "RelativeToolTip": "Application\\Mappers\\MapperConfigurationsProfile.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA0wBQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T21:01:20.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Domain\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "Domain\\Enums\\UserRole.cs",
+              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Domain\\Enums\\UserRole.cs",
+              "RelativeToolTip": "Domain\\Enums\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T20:57:18.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WebAPI",
+              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\WebAPI\\WebAPI.csproj",
+              "RelativeDocumentMoniker": "WebAPI\\WebAPI.csproj",
+              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\WebAPI\\WebAPI.csproj",
+              "RelativeToolTip": "WebAPI\\WebAPI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-04T20:11:43.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Authorization.cs",
+              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Middleware\\Authorization.cs",
+              "RelativeDocumentMoniker": "Application\\Middleware\\Authorization.cs",
+              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Middleware\\Authorization.cs",
+              "RelativeToolTip": "Application\\Middleware\\Authorization.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAowDwAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T20:44:39.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Program.cs",
+              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\WebAPI\\Program.cs",
+              "RelativeToolTip": "WebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T20:08:01.646Z",
               "EditorCaption": ""
             }
           ]

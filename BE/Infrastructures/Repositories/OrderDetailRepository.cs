@@ -13,7 +13,7 @@ namespace Infrastructures.Repositories
     public class OrderDetailRepository : GenericRepository<OrderDetail>, IOrderDetailRepository
     {
         private readonly AppDBContext _dbContext;
-        public OrderDetailRepository(AppDBContext context, ICurrentTime timeService, IClaimsService claimsService) : base(context, timeService, claimsService)
+        public OrderDetailRepository(AppDBContext context, ICurrentTimeService timeService, IClaimsService claimsService) : base(context, timeService, claimsService)
         {
             _dbContext = context;
         }

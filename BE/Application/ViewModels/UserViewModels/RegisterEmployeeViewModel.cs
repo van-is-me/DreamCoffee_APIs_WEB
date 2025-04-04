@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Application.ViewModels.UserViewModels
 {
-    public class CreateUserViewModel
+    public class RegisterEmployeeViewModel
     {
         public string FullName { get; set; }
         public string Email { get; set; }

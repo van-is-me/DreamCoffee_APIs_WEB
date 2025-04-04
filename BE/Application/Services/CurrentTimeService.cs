@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Application.Services
 {
-    public class CurrentTimeService : ICurrentTime
+    public class CurrentTimeService : ICurrentTimeService
     {
         public DateTime GetCurrentTime()
         {

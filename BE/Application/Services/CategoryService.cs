@@ -15,11 +15,11 @@ namespace Application.Services
     {
 
         private readonly IUnitOfWork _unitOfWork;
-        private readonly ICurrentTime _currentTime;
+        private readonly ICurrentTimeService _currentTime;
         private readonly IClaimsService _claimsService;
         private readonly IMapper _mapper;
 
-        public CategoryService(IUnitOfWork unitOfWork, ICurrentTime currentTime, IClaimsService claimsService, IMapper mapper)
+        public CategoryService(IUnitOfWork unitOfWork, ICurrentTimeService currentTime, IClaimsService claimsService, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
             _currentTime = currentTime;

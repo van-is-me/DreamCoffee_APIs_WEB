@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Application.Interfaces
 {
-    public interface ICurrentTime
+    public interface ICurrentTimeService
     {
         public DateTime GetCurrentTime();
     }

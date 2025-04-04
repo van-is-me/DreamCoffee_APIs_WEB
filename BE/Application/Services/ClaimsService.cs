@@ -10,17 +10,16 @@ namespace Application.Services
 {
     public class ClaimsService : IClaimsService
     {
+        //IHttpContextAccessor giúp truy cập thông tin về HTTP Request hiện tại  lấy ra các claim của người dùng đang đăng nhập
         public ClaimsService(IHttpContextAccessor httpContextAccessor)
         {
-            // Check if HttpContext is not null before accessing its properties
             if (httpContextAccessor.HttpContext != null && httpContextAccessor.HttpContext.User != null)
-            {
-                // todo implementation to get the current userId
-                var userIdClaim = httpContextAccessor.HttpContext.User.FindFirst("userId");
+            {//Kiểm tra xem context và thông tin người dùng có tồn tại không
 
-                // Check if the userIdClaim is not null before accessing its Value property
+                var userIdClaim = httpContextAccessor.HttpContext.User.FindFirst("userId");
                 var Id = userIdClaim?.Value;
                 GetCurrentUserId = string.IsNullOrEmpty(Id) ? Guid.Empty : Guid.Parse(Id);
+                //Lấy ra claim tên "userId", sau đó gán vào GetCurrentUserId
             }
             else
             {

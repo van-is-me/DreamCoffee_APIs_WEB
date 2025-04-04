@@ -12,7 +12,7 @@ namespace Infrastructures.Repositories
     public class ShippingRepository : GenericRepository<Shipping>, IShippingRepository
     {
         private readonly AppDBContext _dbContext;
-        public ShippingRepository(AppDBContext context, ICurrentTime timeService, IClaimsService claimsService) : base(context, timeService, claimsService)
+        public ShippingRepository(AppDBContext context, ICurrentTimeService timeService, IClaimsService claimsService) : base(context, timeService, claimsService)
         {
             _dbContext = context;
         }

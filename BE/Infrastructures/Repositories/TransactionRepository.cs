@@ -12,7 +12,7 @@ namespace Infrastructures.Repositories
     public class TransactionRepository : GenericRepository<Transaction>, ITransactionRepository
     {
         private readonly AppDBContext _dbContext;
-        public TransactionRepository(AppDBContext context, ICurrentTime timeService, IClaimsService claimsService) : base(context, timeService, claimsService)
+        public TransactionRepository(AppDBContext context, ICurrentTimeService timeService, IClaimsService claimsService) : base(context, timeService, claimsService)
         {
             _dbContext = context;
         }

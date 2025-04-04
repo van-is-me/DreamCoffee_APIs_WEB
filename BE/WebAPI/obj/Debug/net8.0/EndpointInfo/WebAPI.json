@@ -74,7 +74,7 @@
         }
       }
     },
-    "/api/user": {
+    "/api/user/registerCustomer": {
       "post": {
         "tags": [
           "User"
@@ -83,17 +83,48 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateUserViewModel"
+                "$ref": "#/components/schemas/RegisterCustomerViewModel"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateUserViewModel"
+                "$ref": "#/components/schemas/RegisterCustomerViewModel"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateUserViewModel"
+                "$ref": "#/components/schemas/RegisterCustomerViewModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/user/registerEmployee": {
+      "post": {
+        "tags": [
+          "User"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterEmployeeViewModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterEmployeeViewModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/RegisterEmployeeViewModel"
               }
             }
           }
@@ -121,7 +152,41 @@
         },
         "additionalProperties": false
       },
-      "CreateUserViewModel": {
+      "RegisterCustomerViewModel": {
+        "type": "object",
+        "properties": {
+          "fullName": {
+            "type": "string",
+            "nullable": true
+          },
+          "email": {
+            "type": "string",
+            "nullable": true
+          },
+          "phoneNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "address": {
+            "type": "string",
+            "nullable": true
+          },
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "passwordHash": {
+            "type": "string",
+            "nullable": true
+          },
+          "image": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "RegisterEmployeeViewModel": {
         "type": "object",
         "properties": {
           "fullName": {
@@ -203,7 +268,8 @@
             "nullable": true
           },
           "role": {
-            "$ref": "#/components/schemas/UserRole"
+            "type": "string",
+            "nullable": true
           },
           "image": {
             "type": "string",

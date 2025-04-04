@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Application.ViewModels.UserViewModel
+namespace Application.ViewModels.UserViewModels
 {
-    public class UserViewModel
+    public class RegisterCustomerViewModel
     {
         public string FullName { get; set; }
         public string Email { get; set; }
@@ -15,7 +15,6 @@ namespace Application.ViewModels.UserViewModel
         public string Address { get; set; }
         public string Username { get; set; }
         public string PasswordHash { get; set; }
-        public string Role { get; set; }
         public string? Image { get; set; }
     }
 }

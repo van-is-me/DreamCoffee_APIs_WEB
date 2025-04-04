@@ -11,7 +11,8 @@ namespace Application.Interfaces
 {
     public interface IUserService
     {
-        Task<bool> CreateUser(CreateUserViewModel createUserViewModel);
+        Task<bool> RegisterUser(RegisterCustomerViewModel registerViewModel);
+        Task<bool> RegisterEmployee(RegisterEmployeeViewModel registerEmployeeViewModel);
         Task<List<UserViewModel>> GetAllAsync();
     }
 }

@@ -26,58 +26,88 @@ namespace Infrastructures
         public DbSet<Product> Products { get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Review> Reviews { get; set; }
+        public DbSet<Location> Locations { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
 
-            modelBuilder.Entity<Review>()
-                .HasOne(r => r.User)
-                .WithMany(u => u.Reviews)
-                .HasForeignKey(r => r.UserId);
-
-            modelBuilder.Entity<Review>()
-                .HasOne(r => r.Product)
-                .WithMany(p => p.Reviews)
-                .HasForeignKey(r => r.ProductId);
-
-            modelBuilder.Entity<Transaction>()
-                .HasOne(t => t.User)
-                .WithMany(u => u.Transactions)
-                .HasForeignKey(t => t.UserId);
-
-            modelBuilder.Entity<Order>()
-                .HasOne(o => o.User)
-                .WithMany(u => u.Orders)
-                .HasForeignKey(o => o.UserId);
-
-            modelBuilder.Entity<Order>()
-                .HasOne(o => o.Transaction)
-                .WithOne(t => t.Order)
-                .HasForeignKey<Transaction>(t => t.OrderId); // FK nên ở Transaction vì không phải đơn hàng nào cũng có giao dịch
-
-            modelBuilder.Entity<Order>()
-                .HasOne(o => o.Shipping)
-                .WithOne(s => s.Order)
-                .HasForeignKey<Shipping>(s => s.OrderId); // FK nên ở shipping vì không phải đơn nào cũng cần vận chuyển
-
+            // category -> product 1 -> n
             modelBuilder.Entity<Product>()
                 .HasOne(p => p.Category)
                 .WithMany(c => c.Products)
                 .HasForeignKey(p => p.CategoryId);
 
+            // user -> order 1 -> n
+            modelBuilder.Entity<Order>()
+                .HasOne(o => o.User)
+                .WithMany(u => u.Orders)
+                .HasForeignKey(o => o.UserId);
+
+            // user -> review 1 -> n
+            modelBuilder.Entity<Review>()
+                .HasOne(r => r.User)
+                .WithMany(u => u.Reviews)
+                .HasForeignKey(r => r.UserId);
+
+            // user -> product 1 -> n
+            modelBuilder.Entity<Review>()
+                .HasOne(r => r.Product)
+                .WithMany(p => p.Reviews)
+                .HasForeignKey(r => r.ProductId);
+
+            // user -> transaction 1 -> n
+            modelBuilder.Entity<Transaction>()
+                .HasOne(t => t.User)
+                .WithMany(u => u.Transactions)
+                .HasForeignKey(t => t.UserId);
+
+            // order Detail hasKey
             modelBuilder.Entity<OrderDetail>()
                 .HasKey(od => new { od.OrderId, od.ProductId });
 
+            // product -> orderDetail 1 -> n
             modelBuilder.Entity<OrderDetail>()
                 .HasOne(od => od.Product)
                 .WithMany(p => p.OrderDetails)
                 .HasForeignKey(od => od.ProductId);
 
+            // order -> orderDetail 1 -> n
             modelBuilder.Entity<OrderDetail>()
                 .HasOne(od => od.Order)
                 .WithMany(o => o.OrderDetails)
                 .HasForeignKey(od => od.OrderId);
+
+            // transaction -> order 1 -> 1
+            modelBuilder.Entity<Order>()
+                .HasOne(o => o.Transaction)
+                .WithOne(t => t.Order)
+                .HasForeignKey<Transaction>(t => t.OrderId);
+
+            // order -> shipping 1 -> 1
+            modelBuilder.Entity<Order>()
+                .HasOne(o => o.Shipping)
+                .WithOne(s => s.Order)
+                .HasForeignKey<Shipping>(s => s.OrderId);
+
+            // user -> location 1 -> n
+            modelBuilder.Entity<Location>()
+                .HasOne(l => l.User)
+                .WithMany(u => u.Locations)
+                .HasForeignKey(l => l.UserId);
+
+            // location => order 1 -> n
+            modelBuilder.Entity<Order>()
+                .HasOne(o => o.Location)
+                .WithMany(l => l.Orders)
+                .HasForeignKey(o => o.LocationId);
+
+            //user -> shipping 1 -> n   
+            modelBuilder.Entity<Shipping>()
+                .HasOne(s => s.User)
+                .WithMany(u => u.Shippings)
+                .HasForeignKey(s => s.UserId);
+            
         }
 
 

@@ -11,10 +11,11 @@ namespace Domain.Entities
     public class Shipping : BaseEntity
     {
         [ForeignKey("Order")]
-        public Guid OrderId { get; set; }       
+        public Guid OrderId { get; set; }
+        [ForeignKey("User")]
         public Guid? UserId { get; set; }
         public string Name { get; set; }
-        public string Phone { get; set; }
+        public string? Phone { get; set; }
         public string Address { get; set; }
         public ShippingStatus Status { get; set; }
         public DateTime? EstimatedDeliveryDate { get; set; }

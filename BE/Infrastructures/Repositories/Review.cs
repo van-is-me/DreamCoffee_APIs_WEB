@@ -12,7 +12,7 @@ namespace Infrastructures.Repositories
     public class ReviewRepository : GenericRepository<Review>, IReviewRepository
     {
         private readonly AppDBContext _dbContext;
-        public ReviewRepository(AppDBContext context, ICurrentTime timeService, IClaimsService claimsService) : base(context, timeService, claimsService)
+        public ReviewRepository(AppDBContext context, ICurrentTimeService timeService, IClaimsService claimsService) : base(context, timeService, claimsService)
         {
             _dbContext = context;
         }

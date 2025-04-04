@@ -6,6 +6,7 @@ using Infrastructures.Repositories;
 using Application.Interfaces;
 using Application.Services;
 using Application.Mappers;
+using Application.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,7 +16,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+builder.Services.AddHttpContextAccessor();
 
 // ??ng ký DbContext t? Infrastructure
 builder.Services.AddDbContext<AppDBContext>(options =>
@@ -24,10 +25,14 @@ builder.Services.AddDbContext<AppDBContext>(options =>
 
 builder.Services.AddHttpContextAccessor();
 
+builder.Services.AddRouting();
+
+builder.Services.AddAuthorization();
+
 builder.Services.AddAutoMapper(typeof(MapperConfigurationsProfile)); // Ho?c n?i ch?a Profile c?a AutoMapper
 
 // ??ng ký các Repository c? th?
-builder.Services.AddScoped<ICurrentTime, CurrentTimeService>();
+builder.Services.AddScoped<ICurrentTimeService, CurrentTimeService>();
 builder.Services.AddScoped<IClaimsService, ClaimsService>();
 
 builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
@@ -54,9 +59,15 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
-app.UseHttpsRedirection();
+app.UseRouting();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
+
+app.UseMiddleware<Authentication>();
+
+app.UseHttpsRedirection();
 
 app.MapControllers();
 

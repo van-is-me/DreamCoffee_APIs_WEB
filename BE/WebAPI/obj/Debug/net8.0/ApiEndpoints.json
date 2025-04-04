@@ -17,15 +17,31 @@
   },
   {
     "ContainingType": "WebAPI.Controllers.UserController",
-    "Method": "CreateUser",
-    "RelativePath": "api/user",
+    "Method": "RegisterCustomer",
+    "RelativePath": "api/user/registerCustomer",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "createUserViewModel",
-        "Type": "Application.ViewModels.UserViewModels.CreateUserViewModel",
+        "Name": "registerViewModel",
+        "Type": "Application.ViewModels.UserViewModels.RegisterCustomerViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebAPI.Controllers.UserController",
+    "Method": "RegisterEmployee",
+    "RelativePath": "api/user/registerEmployee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerEmployeeViewModel",
+        "Type": "Application.ViewModels.UserViewModels.RegisterEmployeeViewModel",
         "IsRequired": true
       }
     ],

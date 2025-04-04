@@ -12,7 +12,7 @@ namespace Infrastructures.Repositories
     public class ProductRepository : GenericRepository<Product>, IProductRepository
     {
         private readonly AppDBContext _dbContext;
-        public ProductRepository(AppDBContext context, ICurrentTime timeService, IClaimsService claimsService) : base(context, timeService, claimsService)
+        public ProductRepository(AppDBContext context, ICurrentTimeService timeService, IClaimsService claimsService) : base(context, timeService, claimsService)
         {
             _dbContext = context;
         }
