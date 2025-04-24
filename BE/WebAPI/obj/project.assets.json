@@ -2153,6 +2153,7 @@
           "BCrypt.Net-Next": "4.0.3",
           "Domain": "1.0.0",
           "FluentValidation": "11.11.0",
+          "Microsoft.AspNet.WebApi.Core": "5.3.0",
           "Microsoft.AspNetCore.Authorization": "8.0.2",
           "Microsoft.AspNetCore.Http": "2.3.0",
           "Microsoft.AspNetCore.Http.Abstractions": "2.3.0",
@@ -6246,7 +6247,6 @@
     "net8.0": [
       "Application >= 1.0.0",
       "Infrastructures >= 1.0.0",
-      "Microsoft.AspNet.WebApi.Core >= 5.3.0",
       "Microsoft.AspNetCore.Http >= 2.3.0",
       "Microsoft.AspNetCore.MiddlewareAnalysis >= 8.0.2",
       "Microsoft.AspNetCore.Routing >= 2.3.0",
@@ -6311,10 +6311,6 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
-          "Microsoft.AspNet.WebApi.Core": {
-            "target": "Package",
-            "version": "[5.3.0, )"
-          },
           "Microsoft.AspNetCore.Http": {
             "target": "Package",
             "version": "[2.3.0, )"

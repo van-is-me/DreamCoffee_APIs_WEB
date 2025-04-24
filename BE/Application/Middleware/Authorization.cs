@@ -49,6 +49,7 @@ namespace Application.Middleware
                 return;
             }
 
+
             // Kiểm tra quyền truy cập (Role-based authorization)
             if (!await HasPermission(context))
             {

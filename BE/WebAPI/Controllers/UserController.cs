@@ -1,4 +1,5 @@
-﻿using Application.Interfaces;
+﻿using Application.Exceptions;
+using Application.Interfaces;
 using Application.Services;
 using Application.ViewModels.CategoryViewModels;
 using Application.ViewModels.UserViewModel;
@@ -104,6 +105,26 @@ namespace WebAPI.Controllers
             {
                 // Lỗi phía server
                 return StatusCode(500, new { Message = "An unexpected error occurred. Please try again later.", Details = ex.Message });
+            }
+        }
+
+
+        [AllowAnonymous]
+        [HttpPost("login")]
+        public async Task<IActionResult> Login(LoginViewModel loginViewModel)
+        {
+            try
+            {
+                var response = await _userService.LoginAsync(loginViewModel);
+                return Ok(response);
+            }
+            catch (HttpResponseException httpEx)
+            {
+                return StatusCode(httpEx.StatusCode, new { message = httpEx.Message });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Đã xảy ra lỗi không xác định: " + ex.Message });
             }
         }
     }

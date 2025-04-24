@@ -1,4 +1,4 @@
-using Application.IRepositories;
+﻿using Application.IRepositories;
 using Application;
 using Infrastructures;
 using Microsoft.EntityFrameworkCore;
@@ -7,6 +7,7 @@ using Application.Interfaces;
 using Application.Services;
 using Application.Mappers;
 using Application.Middleware;
+using Application.ViewModels.MomoViewModels;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,7 +19,21 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddHttpContextAccessor();
 
-// ??ng k� DbContext t? Infrastructure
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend",
+        policy =>
+        {
+            policy.WithOrigins("http://localhost:5173", "http://localhost:5174", "http://localhost:5175") // hoặc thêm nhiều nếu cần
+                   .AllowAnyHeader()
+                   .AllowAnyMethod()
+                   .AllowCredentials();
+
+        });
+});
+
+
+// ??ng ký DbContext t? Infrastructure
 builder.Services.AddDbContext<AppDBContext>(options =>
                     options.UseSqlServer(builder.Configuration.GetConnectionString("Development"),
                         builder => builder.MigrationsAssembly(typeof(AppDBContext).Assembly.FullName)));
@@ -31,7 +46,7 @@ builder.Services.AddAuthorization();
 
 builder.Services.AddAutoMapper(typeof(MapperConfigurationsProfile)); // Ho?c n?i ch?a Profile c?a AutoMapper
 
-// ??ng k� c�c Repository c? th?
+// ??ng ký các Repository c? th?
 builder.Services.AddScoped<ICurrentTimeService, CurrentTimeService>();
 builder.Services.AddScoped<IClaimsService, ClaimsService>();
 
@@ -46,8 +61,14 @@ builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddScoped<IProductService, ProductService>();
 
-// ??ng k� UnitOfWork
+builder.Services.Configure<MomoSettingsViewModel>(builder.Configuration.GetSection("MomoSettings"));
+builder.Services.AddScoped<MomoPaymentGateWay>();
+builder.Services.AddScoped<PaymentGatewayFactory>();
+builder.Services.AddScoped<IPaymentService, PaymentService>();
+
+// ??ng ký UnitOfWork
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 var app = builder.Build();
@@ -58,6 +79,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseCors("AllowFrontend");
 
 app.UseRouting();
 

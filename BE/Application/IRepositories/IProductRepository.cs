@@ -10,5 +10,7 @@ namespace Application.IRepositories
 {
     public interface IProductRepository : IGenericRepository<Product>
     {
+        Task<List<Product>> GetByCategory(Guid categoryId);
+
     }
 }
