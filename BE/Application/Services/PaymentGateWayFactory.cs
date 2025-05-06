@@ -10,20 +10,26 @@ namespace Application.Services
 {
     public class PaymentGatewayFactory
     {
-        private readonly IServiceProvider _serviceProvider;
+        private readonly Dictionary<string, IPaymentGateway> _paymentGateways; // Dictionary to hold payment gateways dùng ánh xạ string sang sang đối tượng IPaymentGateway tương ứng 
 
-        public PaymentGatewayFactory(IServiceProvider serviceProvider)
+        public PaymentGatewayFactory(IEnumerable<IPaymentGateway> paymentGateways) 
+            // Constructor nhận vào danh sách các IPaymentGateway và ánh xạ tên của chúng sang đối tượng tương ứng
         {
-            _serviceProvider = serviceProvider;
+            _paymentGateways = paymentGateways.ToDictionary(x => x.GatewayName.ToLower());
         }
 
         public IPaymentGateway GetPaymentGateway(string gateway)
         {
-            return gateway.ToLower() switch
-            {
-                "momo" => _serviceProvider.GetRequiredService<MomoPaymentGateWay>(),
-                _ => throw new ArgumentException("Invalid payment gateway")
-            };
+            if (_paymentGateways.TryGetValue(gateway.ToLower().Trim(), out var result))
+                return result;
+
+            throw new ArgumentException($"Thanh toán '{gateway}' không hỗ trợ. Vui lòng kiểm tra lại tên cổng thanh toán.");
+        }
+
+        // Cung cấp phương thức kiểm tra không ném ngoại lệ
+        public bool TryGetPaymentGateway(string gateway, out IPaymentGateway paymentGateway)
+        {
+            return _paymentGateways.TryGetValue(gateway.ToLower().Trim(), out paymentGateway);
         }
     }
 }

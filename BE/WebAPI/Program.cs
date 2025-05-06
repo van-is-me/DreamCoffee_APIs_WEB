@@ -8,6 +8,7 @@ using Application.Services;
 using Application.Mappers;
 using Application.Middleware;
 using Application.ViewModels.MomoViewModels;
+using Application.ViewModels.ZaloPayViewModels;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -63,8 +64,11 @@ builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<IProductService, ProductService>();
 
+builder.Services.AddHttpClient();
 builder.Services.Configure<MomoSettingsViewModel>(builder.Configuration.GetSection("MomoSettings"));
-builder.Services.AddScoped<MomoPaymentGateWay>();
+builder.Services.Configure<ZaloPaySettingsViewModel>(builder.Configuration.GetSection("ZaloPaySettings"));
+builder.Services.AddScoped<IPaymentGateway, MomoPaymentGateWay>();
+builder.Services.AddScoped<IPaymentGateway, ZaloPayPaymentGateway>();
 builder.Services.AddScoped<PaymentGatewayFactory>();
 builder.Services.AddScoped<IPaymentService, PaymentService>();
 

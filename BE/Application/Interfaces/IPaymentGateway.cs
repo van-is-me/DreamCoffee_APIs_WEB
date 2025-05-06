@@ -9,6 +9,7 @@ namespace Application.Interfaces
 {
     public interface IPaymentGateway
     {
+        string GatewayName { get; } // The name of the payment gateway
         Task<string> CreatePaymentAsync(PaymentRequestViewModel paymentRequestViewModel);
     }
 }

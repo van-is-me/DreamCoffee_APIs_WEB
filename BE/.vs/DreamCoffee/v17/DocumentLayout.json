@@ -3,32 +3,60 @@
   "WorkspaceRootPath": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A22AE40F-86CD-4B50-BD02-CEB12BCDB860}|WebAPI\\WebAPI.csproj|d:\\project\\dreamcoffee_apis_web\\be\\webapi\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A22AE40F-86CD-4B50-BD02-CEB12BCDB860}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A22AE40F-86CD-4B50-BD02-CEB12BCDB860}|WebAPI\\WebAPI.csproj|d:\\project\\dreamcoffee_apis_web\\be\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A22AE40F-86CD-4B50-BD02-CEB12BCDB860}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|d:\\project\\dreamcoffee_apis_web\\be\\application\\viewmodels\\momoviewmodels\\momorequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|solutionrelative:application\\viewmodels\\momoviewmodels\\momorequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|d:\\project\\dreamcoffee_apis_web\\be\\application\\services\\momopaymentgateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|solutionrelative:application\\services\\momopaymentgateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|d:\\project\\dreamcoffee_apis_web\\be\\application\\services\\paymentgatewayfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|solutionrelative:application\\services\\paymentgatewayfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A22AE40F-86CD-4B50-BD02-CEB12BCDB860}|WebAPI\\WebAPI.csproj|d:\\project\\dreamcoffee_apis_web\\be\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A22AE40F-86CD-4B50-BD02-CEB12BCDB860}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|d:\\project\\dreamcoffee_apis_web\\be\\application\\services\\paymentgatewayfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|solutionrelative:application\\services\\paymentgatewayfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|d:\\project\\dreamcoffee_apis_web\\be\\application\\services\\zalopaypaymentgateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|solutionrelative:application\\services\\zalopaypaymentgateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22AE40F-86CD-4B50-BD02-CEB12BCDB860}|WebAPI\\WebAPI.csproj|d:\\project\\dreamcoffee_apis_web\\be\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22AE40F-86CD-4B50-BD02-CEB12BCDB860}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|d:\\project\\dreamcoffee_apis_web\\be\\application\\viewmodels\\zalopayviewmodels\\zalopaysettingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|solutionrelative:application\\viewmodels\\zalopayviewmodels\\zalopaysettingsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|d:\\project\\dreamcoffee_apis_web\\be\\application\\viewmodels\\zalopayviewmodels\\zalopayrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|solutionrelative:application\\viewmodels\\zalopayviewmodels\\zalopayrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A22AE40F-86CD-4B50-BD02-CEB12BCDB860}|WebAPI\\WebAPI.csproj|d:\\project\\dreamcoffee_apis_web\\be\\webapi\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A22AE40F-86CD-4B50-BD02-CEB12BCDB860}|WebAPI\\WebAPI.csproj|solutionrelative:webapi\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|d:\\project\\dreamcoffee_apis_web\\be\\application\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|solutionrelative:application\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|d:\\project\\dreamcoffee_apis_web\\be\\application\\interfaces\\interface1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|solutionrelative:application\\interfaces\\interface1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|d:\\project\\dreamcoffee_apis_web\\be\\application\\interfaces\\ipaymentgateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|solutionrelative:application\\interfaces\\ipaymentgateway.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|d:\\project\\dreamcoffee_apis_web\\be\\application\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|solutionrelative:application\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|d:\\project\\dreamcoffee_apis_web\\be\\application\\viewmodels\\paymentviewmodels\\paymentrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|solutionrelative:application\\viewmodels\\paymentviewmodels\\paymentrequestviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|d:\\project\\dreamcoffee_apis_web\\be\\application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|solutionrelative:application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9D92FE96-9DBE-41DB-863D-97A435C87B62}|Application\\Application.csproj|d:\\project\\dreamcoffee_apis_web\\be\\application\\services\\claimsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -50,8 +78,60 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ZaloPayPaymentGateway.cs",
+              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Services\\ZaloPayPaymentGateway.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\ZaloPayPaymentGateway.cs",
+              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Services\\ZaloPayPaymentGateway.cs",
+              "RelativeToolTip": "Application\\Services\\ZaloPayPaymentGateway.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAiwE4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T14:26:36.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ZaloPayRequestViewModel.cs",
+              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\ViewModels\\ZaloPayViewModels\\ZaloPayRequestViewModel.cs",
+              "RelativeDocumentMoniker": "Application\\ViewModels\\ZaloPayViewModels\\ZaloPayRequestViewModel.cs",
+              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\ViewModels\\ZaloPayViewModels\\ZaloPayRequestViewModel.cs",
+              "RelativeToolTip": "Application\\ViewModels\\ZaloPayViewModels\\ZaloPayRequestViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:07:28.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ZaloPaySettingsViewModel.cs",
+              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\ViewModels\\ZaloPayViewModels\\ZaloPaySettingsViewModel.cs",
+              "RelativeDocumentMoniker": "Application\\ViewModels\\ZaloPayViewModels\\ZaloPaySettingsViewModel.cs",
+              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\ViewModels\\ZaloPayViewModels\\ZaloPaySettingsViewModel.cs",
+              "RelativeToolTip": "Application\\ViewModels\\ZaloPayViewModels\\ZaloPaySettingsViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:06:56.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaymentGateWayFactory.cs",
+              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Services\\PaymentGateWayFactory.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\PaymentGateWayFactory.cs",
+              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Services\\PaymentGateWayFactory.cs",
+              "RelativeToolTip": "Application\\Services\\PaymentGateWayFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T16:45:47.342Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -60,49 +140,66 @@
               "RelativeDocumentMoniker": "WebAPI\\appsettings.json",
               "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\WebAPI\\appsettings.json",
               "RelativeToolTip": "WebAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-04-22T16:50:14.45Z"
+              "WhenOpened": "2025-04-22T16:50:14.45Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PaymentGateWayFactory.cs",
-              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Services\\PaymentGateWayFactory.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\PaymentGateWayFactory.cs",
-              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Services\\PaymentGateWayFactory.cs",
-              "RelativeToolTip": "Application\\Services\\PaymentGateWayFactory.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAASwBoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T16:45:47.342Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "WebAPI\\Program.cs",
               "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\WebAPI\\Program.cs",
               "RelativeToolTip": "WebAPI\\Program.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAAAEMAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAiwEUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T16:44:36.643Z"
+              "WhenOpened": "2025-04-22T16:44:36.643Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Interface1.cs",
-              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Interfaces\\Interface1.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\Interface1.cs",
-              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Interfaces\\Interface1.cs",
-              "RelativeToolTip": "Application\\Interfaces\\Interface1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "MomoPaymentGateWay.cs",
+              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Services\\MomoPaymentGateWay.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\MomoPaymentGateWay.cs",
+              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Services\\MomoPaymentGateWay.cs",
+              "RelativeToolTip": "Application\\Services\\MomoPaymentGateWay.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAgwCsAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T16:42:30.793Z"
+              "WhenOpened": "2025-04-22T16:32:08.232Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "MomoRequestViewModel.cs",
+              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\ViewModels\\MomoViewModels\\MomoRequestViewModel.cs",
+              "RelativeDocumentMoniker": "Application\\ViewModels\\MomoViewModels\\MomoRequestViewModel.cs",
+              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\ViewModels\\MomoViewModels\\MomoRequestViewModel.cs",
+              "RelativeToolTip": "Application\\ViewModels\\MomoViewModels\\MomoRequestViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T12:06:13.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PaymentController.cs",
+              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\WebAPI\\Controllers\\PaymentController.cs",
+              "RelativeDocumentMoniker": "WebAPI\\Controllers\\PaymentController.cs",
+              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\WebAPI\\Controllers\\PaymentController.cs",
+              "RelativeToolTip": "WebAPI\\Controllers\\PaymentController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAswBcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T16:32:01.906Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "PaymentService.cs",
               "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Services\\PaymentService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\PaymentService.cs",
@@ -110,35 +207,64 @@
               "RelativeToolTip": "Application\\Services\\PaymentService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T16:41:48.419Z"
+              "WhenOpened": "2025-04-22T16:41:48.419Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Services\\CategoryService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\CategoryService.cs",
-              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Services\\CategoryService.cs",
-              "RelativeToolTip": "Application\\Services\\CategoryService.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAswDEAAAAjAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "IPaymentGateway.cs",
+              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Interfaces\\IPaymentGateway.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IPaymentGateway.cs",
+              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Interfaces\\IPaymentGateway.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IPaymentGateway.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T16:35:29.194Z"
+              "WhenOpened": "2025-04-25T10:08:08.056Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "CurrentTimeService.cs",
-              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Services\\CurrentTimeService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\CurrentTimeService.cs",
-              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Services\\CurrentTimeService.cs",
-              "RelativeToolTip": "Application\\Services\\CurrentTimeService.cs",
+              "DocumentIndex": 13,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IProductService.cs",
+              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IProductService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T16:35:26.22Z"
+              "WhenOpened": "2025-04-25T10:35:52.396Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
+              "Title": "PaymentRequestViewModel.cs",
+              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\ViewModels\\PaymentViewModels\\PaymentRequestViewModel.cs",
+              "RelativeDocumentMoniker": "Application\\ViewModels\\PaymentViewModels\\PaymentRequestViewModel.cs",
+              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\ViewModels\\PaymentViewModels\\PaymentRequestViewModel.cs",
+              "RelativeToolTip": "Application\\ViewModels\\PaymentViewModels\\PaymentRequestViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T11:03:37.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Interfaces\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IPaymentService.cs",
+              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Interfaces\\IPaymentService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IPaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T16:42:30.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ClaimsService.cs",
               "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Services\\ClaimsService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\ClaimsService.cs",
@@ -150,28 +276,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MomoPaymentGateWay.cs",
-              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Services\\MomoPaymentGateWay.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\MomoPaymentGateWay.cs",
-              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Services\\MomoPaymentGateWay.cs",
-              "RelativeToolTip": "Application\\Services\\MomoPaymentGateWay.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAiwC8AAAA4AAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "CurrentTimeService.cs",
+              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Services\\CurrentTimeService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\CurrentTimeService.cs",
+              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Services\\CurrentTimeService.cs",
+              "RelativeToolTip": "Application\\Services\\CurrentTimeService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T16:32:08.232Z"
+              "WhenOpened": "2025-04-22T16:35:26.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PaymentController.cs",
-              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\WebAPI\\Controllers\\PaymentController.cs",
-              "RelativeDocumentMoniker": "WebAPI\\Controllers\\PaymentController.cs",
-              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\WebAPI\\Controllers\\PaymentController.cs",
-              "RelativeToolTip": "WebAPI\\Controllers\\PaymentController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\CategoryService.cs",
+              "ToolTip": "D:\\Project\\DreamCoffee_APIs_WEB\\BE\\Application\\Services\\CategoryService.cs",
+              "RelativeToolTip": "Application\\Services\\CategoryService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAswDEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-22T16:32:01.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-22T16:35:29.194Z"
             }
           ]
         }

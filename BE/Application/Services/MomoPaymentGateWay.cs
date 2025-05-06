@@ -16,11 +16,15 @@ namespace Application.Services
     public class MomoPaymentGateWay : IPaymentGateway
     {
         private readonly MomoSettingsViewModel _momoSettings;
-
-        public MomoPaymentGateWay(IOptions<MomoSettingsViewModel> momoSettings)
+        private readonly IHttpClientFactory _httpClientFactory; //  tránh rò rỉ thông tin nhạy cảm và tăng cường bảo mật cho ứng dụng của bạn bằng cách sử dụng IHttpClientFactory để tạo HttpClient
+       
+        public MomoPaymentGateWay(IOptions<MomoSettingsViewModel> momoSettings, IHttpClientFactory httpClientFactory)
         {
             _momoSettings = momoSettings.Value;
+            _httpClientFactory = httpClientFactory;
         }
+
+        public string GatewayName => "momo"; // Tên của cổng thanh toán, được sử dụng để xác định cổng thanh toán trong ứng dụng.
 
         public async Task<string> CreatePaymentAsync(PaymentRequestViewModel model)
         {
