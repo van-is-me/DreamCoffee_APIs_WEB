@@ -33,15 +33,3 @@ D:\Project\DreamCoffe_APIs\BE\Domain\obj\Debug\net8.0\Domain.dll
 D:\Project\DreamCoffe_APIs\BE\Domain\obj\Debug\net8.0\refint\Domain.dll
 D:\Project\DreamCoffe_APIs\BE\Domain\obj\Debug\net8.0\Domain.pdb
 D:\Project\DreamCoffe_APIs\BE\Domain\obj\Debug\net8.0\ref\Domain.dll
-D:\Project\DreamCoffee_APIs_WEB\BE\Domain\bin\Debug\net8.0\Domain.deps.json
-D:\Project\DreamCoffee_APIs_WEB\BE\Domain\bin\Debug\net8.0\Domain.dll
-D:\Project\DreamCoffee_APIs_WEB\BE\Domain\bin\Debug\net8.0\Domain.pdb
-D:\Project\DreamCoffee_APIs_WEB\BE\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
-D:\Project\DreamCoffee_APIs_WEB\BE\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
-D:\Project\DreamCoffee_APIs_WEB\BE\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
-D:\Project\DreamCoffee_APIs_WEB\BE\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
-D:\Project\DreamCoffee_APIs_WEB\BE\Domain\obj\Debug\net8.0\Domain.sourcelink.json
-D:\Project\DreamCoffee_APIs_WEB\BE\Domain\obj\Debug\net8.0\Domain.dll
-D:\Project\DreamCoffee_APIs_WEB\BE\Domain\obj\Debug\net8.0\refint\Domain.dll
-D:\Project\DreamCoffee_APIs_WEB\BE\Domain\obj\Debug\net8.0\Domain.pdb
-D:\Project\DreamCoffee_APIs_WEB\BE\Domain\obj\Debug\net8.0\ref\Domain.dll
